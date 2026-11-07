@@ -21,9 +21,6 @@ This repository documents a practical assignment deploying and administering an 
 - `Report/Azure_VM_Assignment_Report.docx` – editable report.
 - `Screenshots/` – selected evidence from the practical work. The VM overview screenshot has its public IP and subscription ID redacted.
 - `Configuration/samba-share-config.txt` – Samba share configuration example.
-- `Additional_Project_NexusCRM/` – separate visual showcase of the NexusCRM project; these images are supplementary and are not evidence for the Azure tasks.
-- `LinkedIn_Post_Draft.md` – suggested LinkedIn announcement.
-- `Submission_Checklist.md` – final publishing and cleanup checklist.
 
 ## Security
 Screenshots and repository files must not contain passwords, storage account keys, private keys, access tokens, or `.env` files. Do not expose Samba TCP/445 to the public internet. The assignment VM and storage resources should be deleted only after submission and any trainer review are complete.
