@@ -1,0 +1,19 @@
+# Example Samba share configuration
+# Add this section to /etc/samba/smb.conf on the Ubuntu VM.
+
+[AnharShare]
+   path = /srv/samba/shared
+   browseable = yes
+   read only = no
+   valid users = @sambashare
+   force group = sambashare
+   create mask = 0660
+   directory mask = 0770
+
+# Validate after editing:
+# sudo testparm
+# sudo systemctl restart smbd
+# sudo systemctl status smbd
+
+# Security note:
+# Do not expose TCP port 445 to the public internet.
