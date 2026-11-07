@@ -25,9 +25,6 @@ This repository documents a practical assignment deploying and administering an 
 - `LinkedIn_Post_Draft.md` – suggested LinkedIn announcement.
 - `Submission_Checklist.md` – final publishing and cleanup checklist.
 
-## Additional technical learning
-The student also reports training in Python, PostgreSQL databases, and UI design through IT Bootcamp, and learning/development activities associated with VIT Academy and We RHere IT Academy. A separate personal project, **NexusCRM**, was designed and developed using Python, PyQt6, and PostgreSQL.
-
 ## Security
 Screenshots and repository files must not contain passwords, storage account keys, private keys, access tokens, or `.env` files. Do not expose Samba TCP/445 to the public internet. The assignment VM and storage resources should be deleted only after submission and any trainer review are complete.
 
